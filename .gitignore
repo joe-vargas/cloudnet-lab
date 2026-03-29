@@ -35,3 +35,17 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Local environment and secrets
+.env
+*.pem
+*.key
+
+# AWS credentials backup (just in case)
+.aws/
+
+# Mac System files
+.DS_Store
+
+# VS Code settings
+.vscode/
